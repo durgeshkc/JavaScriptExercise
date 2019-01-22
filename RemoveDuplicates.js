@@ -1,0 +1,3 @@
+var names = ["Ram","mohan","Ram","ABC"];
+let unique = [...new Set(names)];       //creating a set removes all duplicate............
+console.log(unique);
